@@ -1,0 +1,144 @@
+.wholePage-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-y: auto; 
+  background-color: #EAE2B7; 
+}
+
+.navbar-container {
+  width: 100%;
+  background-color: #003049; 
+  position: fixed; /* Fixes the navbar at the top */
+  top: 0; 
+  left: 0; /* Ensure it stretches full width */
+  z-index: 1000; /* Ensure the navbar stays on top of other content */
+  height: 60px; /* Adjust based on your navbar's height */
+  line-height: 60px; /* Aligns text vertically */
+}
+
+.heroSection-container {
+  width: 100%;
+  background-color: #D62828;
+  padding: 20px;
+  margin-top: 60px; /* Adjust margin to match the navbar height */
+}
+
+.new-recipe-container {
+  padding: 20px;
+  background-color: #F77F00;
+}
+
+.new-recipe-container h2 {
+  color: #003049;
+}
+
+.recipeDetails-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #FCBF49;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-card {
+  background-color: #FCBF49;
+  border: 1px solid #003049;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.recipe-card h3 {
+  color: #D62828;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #003049; 
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+/* the navbar is not displaying and the hero is cut in half */
+
+
+
+
+
+/* .wholePage-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-height: 100vh; 
+  overflow-y: auto; 
+  background-color: #EAE2B7; 
+}
+
+.navbar-container {
+  width: 100%;
+  background-color: #003049; 
+}
+
+.heroSection-container {
+  width: 100%;
+  background-color: #D62828; 
+  padding: 20px;
+}
+
+.recipeDetails-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #FCBF49;
+}
+
+.recipe-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-card {
+  background-color: #FCBF49;
+  border: 1px solid #003049;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.recipe-card h3 {
+  color: #D62828;
+}
+
+.footer-container {
+  width: 100%;
+  background-color: #003049; 
+  padding: 10px;
+  text-align: center;
+}
+ */
+
+
+
+

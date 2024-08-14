@@ -1,0 +1,80 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.picture-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('/public/assets/cover3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-container {
+  background-color: rgba(229, 173, 128, 0.9); 
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #003049;
+  width: 200px;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #003049;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #002234;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #003049;
+}
+
+
+
+
+
+
+
+
+/* .registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F77F00;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #003049;
+    width: 200px;
+  }
+  
+  button {
+    width: 100%;
+  }
+   */
