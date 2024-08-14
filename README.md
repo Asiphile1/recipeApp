@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Recipe Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based application for managing and displaying recipes. Users can view, add, and manage recipes, with functionalities including user authentication and CRUD operations.
 
-## Available Scripts
+## Table of Contents
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [API](#api)
+5. [Folder Structure](#folder-structure)
+6. [Contributing](#contributing)
+7. [License](#license)
 
-In the project directory, you can run:
+## Features
+- **User Authentication**: Users can register, log in, and manage their accounts.
+- **Recipe Management**: Users can add, edit, delete, and view recipes.
+- **Recipe Search**: Search for recipes by keywords.
+- **Responsive Design**: The application is designed to be responsive across various devices.
+- **Background Video**: An engaging background video enhances the user experience.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the Repository:**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/Asiphile1/recipeApp.git
 
-### `npm test`
+   Usage
+Login: Navigate to the login page and enter your credentials to log in.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Register: Create a new account if you don’t have one.
 
-### `npm run build`
+Home Page: View a list of recipes and navigate to individual recipe details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Add Recipe: Add new recipes with details and an image.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Manage Recipes: Edit or delete existing recipes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+API
 
-### `npm run eject`
+Endpoints
+GET /users?email={email}&password={password}
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Retrieve user data for login.
+GET /recipes
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Retrieve all recipes.
+POST /recipes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Add a new recipe.
+PATCH /recipes/
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Update an existing recipe.
+DELETE /recipes/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Delete a recipe.
+Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+src/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+components/ - React components used in the application.
 
-### Making a Progressive Web App
+AddRecipe.js - Component for adding a recipe.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+HomePage.js - Component displaying the homepage.
 
-### Advanced Configuration
+LoginPage.js - Component for user login.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+RecipeDetail.js - Component for viewing recipe details.
 
-### Deployment
+Navbar.js - Navigation bar component.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+HeroSection.js - Hero section component.
 
-### `npm run build` fails to minify
+Footer.js - Footer component.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+App.js - Main application component.
+
+index.js - Entry point of the application.
+
+theme.js - MUI theme configuration.
+
+App.css - Global CSS styles.
+
+LoginPage.css - CSS for the login page.
+
+
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
