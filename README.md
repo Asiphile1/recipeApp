@@ -24,8 +24,11 @@ A React-based application for managing and displaying recipes. Users can view, a
 
    ```bash
    git clone https://github.com/Asiphile1/recipeApp.git
+   ```
 
    Usage
+## to run the app make sure your server is running on port: http://localhost:3002
+
 Login: Navigate to the login page and enter your credentials to log in.
 
 Register: Create a new account if you don’t have one.
