@@ -27,7 +27,9 @@ A React-based application for managing and displaying recipes. Users can view, a
    ```
 
    Usage
-## to run the app make sure your server is running on port: http://localhost:3002
+
+   
+## NOTE: to run the app make sure your server is running on port: http://localhost:3002
 
 Login: Navigate to the login page and enter your credentials to log in.
 
